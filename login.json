@@ -1,0 +1,14 @@
+{
+    "userdetails": [{
+    "name": "John Doe",
+    "email": "johndoe@gmail.com",
+    "phone": "9324324543",
+    "message": "I want to go to Canada"
+ }, {
+    "name": "Bob Marley",
+    "email": "bobmarley@gmail.com",
+    "phone": "3484838432",
+    "message":"I want to travel"
+    }]
+ }
+    

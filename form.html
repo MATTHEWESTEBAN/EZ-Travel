@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EZ Travel: Get the best information</title>
+  <link rel="stylesheet" href="form.css">
+  <link rel="icon" href="logo.png">
+</head>
+<body>
+  <div class="container">
+  <div class="form"></div>
+    <form action="register.html" method="post">
+      <h3>Get in touch with EZ Travel</h3>
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="text" id="phone" placeholder="Phone Number" required>
+      <textarea id="message" rows="4" placeholder="Where do you want to travel?"></textarea>
+      <button onclick="send()">Send</button>
+    </form>
+  </div>
+  <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+    
+    <script src="login.js"></script>
+
+</body>
+</html>
